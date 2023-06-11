@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KawasakiZX">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kawasakizx"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        style="@style/BikeNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kawasaki ZX-10R"/>
+    <TextView
+        style="@style/BikeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Specifications"
+        android:textColor="@color/black"/>
+
+        <TextView
+            style="@style/BikeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/engine_displacement"
+            android:gravity="start"/>
+        <TextView
+            style="@style/BikeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight - 207 kg "
+            android:gravity="start"/>
+        <TextView
+            style="@style/BikeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Power - 203 PS @ 13200 rpm"
+            android:gravity="start"/>
+        <TextView
+            style="@style/BikeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Torque - 114.9 Nm @ 11400 rpm"
+            android:gravity="start"/>
+        <TextView
+            style="@style/BikeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price -  $18,199/-"
+            android:gravity="start"/>
+
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="BUY"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
